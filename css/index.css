@@ -160,6 +160,22 @@ p {
   width: 100%;
   margin: 0 auto;
 }
+nav a {
+  text-decoration: none;
+  color: black;
+  display: inline;
+  padding: 12px;
+  text-align: center;
+  font-size: 15px;
+}
+nav {
+  justify-content: center;
+}
+h1 {
+  text-align: center;
+  font-size: 25px;
+  padding: 12px;
+}
 footer {
   color: #22283B;
   background: #f4f4f4;
@@ -169,6 +185,11 @@ footer {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+button {
+  background-color: #22283B;
+  color: white;
+  size: 20px;
 }
 .home .intro h2 {
   padding: 15px;
