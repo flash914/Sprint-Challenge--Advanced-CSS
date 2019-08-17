@@ -163,12 +163,12 @@ p {
 nav a {
   text-decoration: none;
   color: black;
-  display: inline;
   padding: 12px;
-  text-align: center;
   font-size: 15px;
+  text-align: center;
 }
 nav {
+  display: flex;
   justify-content: center;
 }
 h1 {
@@ -189,7 +189,7 @@ footer {
 button {
   background-color: #22283B;
   color: white;
-  size: 20px;
+  size: 25px;
 }
 .home .intro h2 {
   padding: 15px;
