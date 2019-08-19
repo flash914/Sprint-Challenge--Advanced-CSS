@@ -301,4 +301,7 @@ footer {
     padding: 4% 0 4% 0;
     border-radius: 6px ;
   }
+  .logo {
+    width: 100%;
+  }
 }
