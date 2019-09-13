@@ -1,1 +1,26 @@
 // Mixins Here
+.footer-style{
+    color: #22283B;
+  background: #f4f4f4;
+  padding: 20px 0;
+  border: 1px double #e0e0e0;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.hover-style{
+    background: rgb(87, 104, 158)
+}
+
+.flex{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.button-style(@fontSize,@padding,@radius){
+    font-size: @fontSize;
+padding: @padding;
+border-radius: @radius
+}
